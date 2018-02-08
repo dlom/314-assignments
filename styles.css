@@ -61,7 +61,6 @@ nav li {
 
 /* using flexbox to center */
 #side-by-side-images {
-    line-height: 0;
     margin: 1em;
     display: flex;
     justify-content: space-around;
