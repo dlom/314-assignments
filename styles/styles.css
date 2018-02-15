@@ -43,7 +43,8 @@ nav li {
 #about-me {
     padding-top: 0.5em;
     padding-bottom: 0.5em;
-    background-color: lightskyblue;
+    background: -webkit-linear-gradient(to right, #ffff1c, #00c3ff);
+    background: linear-gradient(to right, #ffff1c, #00c3ff);
 }
 
 #about-me h2 {
@@ -67,10 +68,22 @@ nav li {
     align-items: center;
 }
 
+#many-images {
+    margin: 1em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#many-images img {
+    margin: 0.5em;
+}
+
 #button-container {
     background-color: darkslateblue;
     position: relative;
-    height: 10em;
+    height: 20em;
 }
 
 /* using transforms to center */
@@ -79,6 +92,20 @@ nav li {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#button-container input[type=button]:hover {
+    background-color: darkgreen;
+}
+
+#button-container input[type=button]:active {
+    border: dashed;
 }
 
 footer {
