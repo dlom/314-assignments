@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>JS in the Browser</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="assignment-styles.css">
+  </head>
+  <body>
+    <section id="selection">
+      <div class="inner-content">
+        <p>Select the number that you want to scroll to:</p>
+        <button id="scroll-one">1</button>
+        <button id="scroll-two">2</button>
+        <button id="scroll-three">3</button>
+        <button id="scroll-four">4</button>
+        <button id="scroll-five">5</button>
+      </div>
+    </section>
+    <section class="dark-bg" id="one">
+      <div class="inner-content">
+        <p>1. Pick a background color:</p>
+        <button id="1blue">Blue</button>
+        <button id="1green">Green</button>
+      </div>
+    </section>
+    <section id="two">
+      <div class="inner-content">
+        <p>2. Click the button to change between a pink and orange background:</p>
+        <p>The text on the button will represent the color the user will get.</p>
+        <button id="2toggle">Click for pink!</button>
+      </div>
+    </section>
+    <section class="dark-bg" id="three">
+      <div class="inner-content">
+        <p>3. Input text to add to the list below</p>
+        <input id="3input" type="text">
+        <button id="3add">Submit</button>
+        <ul id="3list">
+          <li>One</li>
+          <li>Green</li>
+        </ul>
+      </div>
+    </section>
+    <section id="four">
+      <div class="inner-content">
+        <p>4. If an item is clicked, remove it from the list.</p>
+        <ul id="4list">
+          <li>Bob</li>
+          <li>Tim</li>
+          <li>Jack</li>
+          <li>Sam</li>
+        </ul>
+      </div>
+    </section>
+    <section class="dark-bg" id="five">
+      <div class="inner-content">
+        <p>5. If an item is clicked, select it (highlight it) and de-select everything else.</p>
+        <p>This doesn't have to be pretty.</p>
+        <p>Just change the background color of the selected item with a class.</p>
+        <ul id="5list">
+          <li>Bob</li>
+          <li>Tim</li>
+          <li>Jack</li>
+          <li>Sam</li>
+        </ul>
+      </div>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>
