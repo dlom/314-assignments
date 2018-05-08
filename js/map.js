@@ -22,7 +22,6 @@ function initMap() {
     });
 
     [bruchis, petesPizza, ourThaiHouse].forEach(location => {
-        console.log(location);
         const { position, title, content } = location;
         const marker = new google.maps.Marker({ position, map, title });
         const infoWindow = new google.maps.InfoWindow({ content });
