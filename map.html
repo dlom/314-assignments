@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Mark Old (Map)</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/main.css">
+	</head>
+	<body>
+		<header>
+			<h1>Mark Old</h1>
+			<h2>Computer Scientist Extraordinaire</h2>
+		</header>
+		<div id="main">
+			<nav>
+				<ul>
+					<li><a href="/index.html">Home</a></li>
+					<li><a class="selected" href="/map.html">Maps</a></li>
+					<li><a href="/api.html">API Fun</a></li>
+					<li><a href="/contact.html">Contact</a></li>
+				</ul>
+			</nav>
+			<div id="content">
+                <h1>My Favorite Places to Eat</h1>
+                <p>
+                    There are a lot of great places to eat within walking
+                    distance of my apartment. Here are a few of them.
+                </p>
+                <div id="map"></div>
+			</div>
+		</div>
+		<footer>
+			&copy; Mark Old 2018
+        </footer>
+        <script src="js/map.js"></script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIKamQxnIGE7OkZv6sZAuIan4B-KmveFk&callback=initMap"></script>
+	</body>
+</html>
